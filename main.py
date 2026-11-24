@@ -78,11 +78,11 @@ BUY_SLIPPAGE_BPS = 500
 SELL_SLIPPAGE_BPS = 10_000
 
 # --- exits ------------------------------------------------------------------
-TAKE_PROFIT = 0.25         # sell when value reaches cost * (1 + TAKE_PROFIT)
-STOP_LOSS = 0.12           # sell when value falls to cost * (1 - STOP_LOSS)
-TRAIL_ARM = 0.12           # trailing stop arms once value is up this much
-TRAIL_DROP = 0.15          # sell when value falls this far below its best
-MAX_HOLD_SLOTS = 300       # slots held before a time-limit exit
+TAKE_PROFIT = 0.15         # sell when value reaches cost * (1 + TAKE_PROFIT)
+STOP_LOSS = 0.10           # sell when value falls to cost * (1 - STOP_LOSS)
+TRAIL_ARM = 0.10           # trailing stop arms once value is up this much
+TRAIL_DROP = 0.12          # sell when value falls this far below its best
+MAX_HOLD_SLOTS = 200       # slots held before a time-limit exit
 FADE_WINDOW_SLOTS = 30
 FADE_NET_SOL = -0.5        # sell when net SOL over the fade window is below this
 
